@@ -1,2 +1,3 @@
 data/*.zip
 debug_images
+__pycache__
