@@ -26,6 +26,7 @@
     score: .rounds[-1].score, 
     opponent_score: .rounds[-1].opponent_score, 
     win_streak: .win_streak, 
-    lose_streak: .lose_streak
+    lose_streak: .lose_streak,
+    rounds: .rounds | length
   }
 ]

@@ -1,1 +1,1 @@
-for %%f in (data\*.zip) do python reader.py --anchor ideal_anchor.png "%%f"
+for %%f in (data\*.zip) do @if not exist "data\%%~nf.json" python reader.py "%%f"

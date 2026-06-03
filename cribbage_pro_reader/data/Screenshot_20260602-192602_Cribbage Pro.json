@@ -1,38 +1,143 @@
 {
-  "file_source": "data\\Screenshot_20260531-223406_Cribbage Pro.zip",
+  "file_source": "data\\Screenshot_20260602-192602_Cribbage Pro.zip",
   "rounds": [
     {
       "round": 1,
-      "position": "pone",
+      "position": "dealer",
       "hand": [
-        "7H",
-        "7C",
-        "10D",
-        "JD"
+        "5D",
+        "QH",
+        "KD",
+        "KC"
       ],
       "discard": [
-        "4S",
-        "KH"
+        "9C",
+        "10S"
       ],
       "opponent_hand": [
-        "AH",
-        "3H",
-        "4H",
-        "KS"
+        "2H",
+        "5H",
+        "7H",
+        "8H"
       ],
       "opponent_discard": [
-        "7S",
-        "9C"
+        "AH",
+        "2D"
       ],
-      "start": "QS",
+      "start": "KH",
       "heels": 0,
-      "hand_score": 5,
-      "opponent_hand_score": 4,
+      "hand_score": 14,
+      "opponent_hand_score": 11,
       "crib_score": 0,
       "pegging": [
         {
           "player": "pone",
+          "card": "8H",
+          "count": 8,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "QH",
+          "count": 18,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
           "card": "7H",
+          "count": 25,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "5D",
+          "count": 30,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        },
+        {
+          "player": "pone",
+          "card": "2H",
+          "count": 2,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "KD",
+          "count": 12,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "5H",
+          "count": 17,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "KC",
+          "count": 27,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        }
+      ],
+      "score": 16,
+      "opponent_score": 11
+    },
+    {
+      "round": 2,
+      "position": "pone",
+      "hand": [
+        "6D",
+        "7S",
+        "7C",
+        "8C"
+      ],
+      "discard": [
+        "10D",
+        "QD"
+      ],
+      "opponent_hand": [
+        "AH",
+        "AD",
+        "3S",
+        "KS"
+      ],
+      "opponent_discard": [
+        "7D",
+        "9S"
+      ],
+      "start": "JH",
+      "heels": 2,
+      "hand_score": 12,
+      "opponent_hand_score": 6,
+      "crib_score": 4,
+      "pegging": [
+        {
+          "player": "pone",
+          "card": "7S",
           "count": 7,
           "points": 0,
           "events": []
@@ -46,18 +151,40 @@
         },
         {
           "player": "pone",
-          "card": "JD",
-          "count": 27,
+          "card": "8C",
+          "count": 25,
           "points": 0,
           "events": []
         },
         {
           "player": "dealer",
-          "card": "4H",
-          "count": 31,
+          "card": "3S",
+          "count": 28,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "AH",
+          "count": 29,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "AD",
+          "count": 30,
           "points": 2,
           "events": [
-            "31"
+            "pair"
+          ]
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
           ]
         },
         {
@@ -68,354 +195,107 @@
           "events": []
         },
         {
-          "player": "dealer",
-          "card": "AH",
-          "count": 8,
-          "points": 0,
-          "events": []
-        },
-        {
           "player": "pone",
-          "card": "10D",
-          "count": 18,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "3H",
-          "count": 21,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        }
-      ],
-      "score": 5,
-      "opponent_score": 7
-    },
-    {
-      "round": 2,
-      "position": "dealer",
-      "hand": [
-        "6C",
-        "7H",
-        "8D",
-        "QS"
-      ],
-      "discard": [
-        "3H",
-        "4H"
-      ],
-      "opponent_hand": [
-        "6S",
-        "JS",
-        "QC",
-        "KH"
-      ],
-      "opponent_discard": [
-        "AS",
-        "8S"
-      ],
-      "start": "5S",
-      "heels": 0,
-      "hand_score": 8,
-      "opponent_hand_score": 10,
-      "crib_score": 5,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "6S",
-          "count": 6,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "6C",
-          "count": 12,
-          "points": 2,
-          "events": [
-            "pair"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "KH",
-          "count": 22,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "8D",
-          "count": 30,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "QC",
-          "count": 10,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "QS",
-          "count": 20,
-          "points": 2,
-          "events": [
-            "pair"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "JS",
-          "count": 30,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        },
-        {
-          "player": "dealer",
-          "card": "7H",
-          "count": 7,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        }
-      ],
-      "score": 24,
-      "opponent_score": 18
-    },
-    {
-      "round": 3,
-      "position": "pone",
-      "hand": [
-        "3H",
-        "4D",
-        "5D",
-        "8H"
-      ],
-      "discard": [
-        "AH",
-        "KC"
-      ],
-      "opponent_hand": [
-        "3D",
-        "3C",
-        "4C",
-        "8D"
-      ],
-      "opponent_discard": [
-        "9H",
-        "QS"
-      ],
-      "start": "QD",
-      "heels": 0,
-      "hand_score": 7,
-      "opponent_hand_score": 6,
-      "crib_score": 2,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "4D",
-          "count": 4,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "8D",
-          "count": 12,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "3H",
-          "count": 15,
-          "points": 2,
-          "events": [
-            "15"
-          ]
-        },
-        {
-          "player": "dealer",
-          "card": "3D",
-          "count": 18,
-          "points": 2,
-          "events": [
-            "pair"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "8H",
-          "count": 26,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "4C",
-          "count": 30,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "5D",
-          "count": 5,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "3C",
-          "count": 8,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        }
-      ],
-      "score": 33,
-      "opponent_score": 30
-    },
-    {
-      "round": 4,
-      "position": "dealer",
-      "hand": [
-        "2H",
-        "3S",
-        "3D",
-        "QS"
-      ],
-      "discard": [
-        "5S",
-        "7D"
-      ],
-      "opponent_hand": [
-        "8S",
-        "10S",
-        "10H",
-        "10C"
-      ],
-      "opponent_discard": [
-        "3H",
-        "6D"
-      ],
-      "start": "4C",
-      "heels": 0,
-      "hand_score": 12,
-      "opponent_hand_score": 6,
-      "crib_score": 9,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "10S",
-          "count": 10,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "3S",
+          "card": "6D",
           "count": 13,
           "points": 0,
           "events": []
         },
         {
           "player": "pone",
-          "card": "10H",
-          "count": 23,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "3D",
-          "count": 26,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "2H",
-          "count": 28,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
           "card": null,
           "points": 1,
           "events": [
             "sequence end"
           ]
-        },
+        }
+      ],
+      "score": 29,
+      "opponent_score": 26
+    },
+    {
+      "round": 3,
+      "position": "dealer",
+      "hand": [
+        "5S",
+        "5H",
+        "JH",
+        "KS"
+      ],
+      "discard": [
+        "AH",
+        "2C"
+      ],
+      "opponent_hand": [
+        "7D",
+        "8D",
+        "9H",
+        "10D"
+      ],
+      "opponent_discard": [
+        "4S",
+        "JC"
+      ],
+      "start": "AC",
+      "heels": 0,
+      "hand_score": 10,
+      "opponent_hand_score": 6,
+      "crib_score": 7,
+      "pegging": [
         {
           "player": "pone",
-          "card": "8S",
+          "card": "8D",
           "count": 8,
           "points": 0,
           "events": []
         },
         {
           "player": "dealer",
-          "card": "QS",
-          "count": 18,
+          "card": "5S",
+          "count": 13,
           "points": 0,
           "events": []
         },
         {
           "player": "pone",
-          "card": "10C",
-          "count": 28,
+          "card": "9H",
+          "count": 22,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "5H",
+          "count": 27,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        },
+        {
+          "player": "pone",
+          "card": "7D",
+          "count": 7,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "KS",
+          "count": 17,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "10D",
+          "count": 27,
           "points": 0,
           "events": []
         },
@@ -426,100 +306,16 @@
           "events": [
             "sequence end"
           ]
-        }
-      ],
-      "score": 55,
-      "opponent_score": 37
-    },
-    {
-      "round": 5,
-      "position": "pone",
-      "hand": [
-        "2D",
-        "4H",
-        "JS",
-        "JD"
-      ],
-      "discard": [
-        "7H",
-        "QC"
-      ],
-      "opponent_hand": [
-        "5C",
-        "KH",
-        "KD",
-        "KC"
-      ],
-      "opponent_discard": [
-        "6D",
-        "QD"
-      ],
-      "start": "8H",
-      "heels": 0,
-      "hand_score": 2,
-      "opponent_hand_score": 12,
-      "crib_score": 7,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "4H",
-          "count": 4,
-          "points": 0,
-          "events": []
         },
         {
           "player": "dealer",
-          "card": "KH",
-          "count": 14,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "2D",
-          "count": 16,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "KD",
-          "count": 26,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "5C",
-          "count": 31,
-          "points": 2,
-          "events": [
-            "31"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "JS",
+          "card": "JH",
           "count": 10,
           "points": 0,
           "events": []
         },
         {
           "player": "dealer",
-          "card": "KC",
-          "count": 20,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "JD",
-          "count": 30,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
           "card": null,
           "points": 1,
           "events": [
@@ -527,37 +323,37 @@
           ]
         }
       ],
-      "score": 58,
-      "opponent_score": 58
+      "score": 48,
+      "opponent_score": 33
     },
     {
-      "round": 6,
-      "position": "dealer",
+      "round": 4,
+      "position": "pone",
       "hand": [
-        "6C",
-        "7C",
-        "8S",
-        "8C"
+        "AH",
+        "AC",
+        "4H",
+        "10H"
       ],
       "discard": [
-        "5D",
-        "JD"
+        "3C",
+        "9S"
       ],
       "opponent_hand": [
-        "AH",
         "AD",
-        "6D",
-        "8D"
+        "4D",
+        "QS",
+        "QD"
       ],
       "opponent_discard": [
-        "2H",
-        "5H"
+        "2S",
+        "9C"
       ],
-      "start": "10S",
+      "start": "4C",
       "heels": 0,
       "hand_score": 12,
-      "opponent_hand_score": 6,
-      "crib_score": 10,
+      "opponent_hand_score": 12,
+      "crib_score": 9,
       "pegging": [
         {
           "player": "pone",
@@ -568,321 +364,14 @@
         },
         {
           "player": "dealer",
-          "card": "8C",
-          "count": 9,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "8D",
-          "count": 17,
-          "points": 2,
-          "events": [
-            "pair"
-          ]
-        },
-        {
-          "player": "dealer",
-          "card": "8S",
-          "count": 25,
-          "points": 6,
-          "events": [
-            "three of a kind"
-          ]
-        },
-        {
-          "player": "pone",
-          "card": "6D",
-          "count": 31,
-          "points": 2,
-          "events": [
-            "31"
-          ]
-        },
-        {
-          "player": "dealer",
-          "card": "6C",
-          "count": 6,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "AD",
-          "count": 7,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "7C",
-          "count": 14,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        }
-      ],
-      "score": 87,
-      "opponent_score": 68
-    },
-    {
-      "round": 7,
-      "position": "pone",
-      "hand": [
-        "3S",
-        "3H",
-        "5S",
-        "9H"
-      ],
-      "discard": [
-        "AC",
-        "8C"
-      ],
-      "opponent_hand": [
-        "5C",
-        "10D",
-        "10C",
-        "QC"
-      ],
-      "opponent_discard": [
-        "2H",
-        "6H"
-      ],
-      "start": "7C",
-      "heels": 0,
-      "hand_score": 8,
-      "opponent_hand_score": 8,
-      "crib_score": 9,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "3S",
-          "count": 3,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "10D",
-          "count": 13,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "3H",
-          "count": 16,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "10C",
-          "count": 26,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "5S",
-          "count": 31,
-          "points": 2,
-          "events": [
-            "31"
-          ]
-        },
-        {
-          "player": "dealer",
-          "card": "QC",
-          "count": 10,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "9H",
-          "count": 19,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "5C",
-          "count": 24,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        }
-      ],
-      "score": 97,
-      "opponent_score": 86
-    },
-    {
-      "round": 8,
-      "position": "dealer",
-      "hand": [
-        "JS",
-        "JD",
-        "QH",
-        "KD"
-      ],
-      "discard": [
-        "AS",
-        "4C"
-      ],
-      "opponent_hand": [
-        "3S",
-        "3H",
-        "3D",
-        "4H"
-      ],
-      "opponent_discard": [
-        "AH",
-        "KH"
-      ],
-      "start": "2H",
-      "heels": 0,
-      "hand_score": 8,
-      "opponent_hand_score": 17,
-      "crib_score": 6,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "3S",
-          "count": 3,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "KD",
-          "count": 13,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "3H",
-          "count": 16,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "QH",
-          "count": 26,
+          "card": "QS",
+          "count": 11,
           "points": 0,
           "events": []
         },
         {
           "player": "pone",
           "card": "4H",
-          "count": 30,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        },
-        {
-          "player": "dealer",
-          "card": "JS",
-          "count": 10,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "3D",
-          "count": 13,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "JD",
-          "count": 23,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": null,
-          "points": 1,
-          "events": [
-            "sequence end"
-          ]
-        }
-      ],
-      "score": 112,
-      "opponent_score": 104
-    },
-    {
-      "round": 9,
-      "position": "pone",
-      "hand": [
-        "2C",
-        "3H",
-        "JC",
-        "QH"
-      ],
-      "discard": [
-        "6S",
-        "KS"
-      ],
-      "opponent_hand": [
-        "9H",
-        "10H",
-        "JS",
-        "JD"
-      ],
-      "opponent_discard": [
-        "2D",
-        "10D"
-      ],
-      "start": "4S",
-      "heels": 0,
-      "hand_score": 7,
-      "opponent_hand_score": 9,
-      "crib_score": 0,
-      "pegging": [
-        {
-          "player": "pone",
-          "card": "3H",
-          "count": 3,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "dealer",
-          "card": "10H",
-          "count": 13,
-          "points": 0,
-          "events": []
-        },
-        {
-          "player": "pone",
-          "card": "2C",
           "count": 15,
           "points": 2,
           "events": [
@@ -891,8 +380,110 @@
         },
         {
           "player": "dealer",
-          "card": "9H",
-          "count": 24,
+          "card": "4D",
+          "count": 19,
+          "points": 2,
+          "events": [
+            "pair"
+          ]
+        },
+        {
+          "player": "pone",
+          "card": "10H",
+          "count": 29,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "AD",
+          "count": 30,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "AC",
+          "count": 31,
+          "points": 4,
+          "events": [
+            "pair",
+            "31"
+          ]
+        },
+        {
+          "player": "dealer",
+          "card": "QD",
+          "count": 10,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        }
+      ],
+      "score": 66,
+      "opponent_score": 57
+    },
+    {
+      "round": 5,
+      "position": "dealer",
+      "hand": [
+        "AS",
+        "4S",
+        "10H",
+        "QD"
+      ],
+      "discard": [
+        "3C",
+        "9D"
+      ],
+      "opponent_hand": [
+        "5H",
+        "6C",
+        "9C",
+        "KH"
+      ],
+      "opponent_discard": [
+        "AH",
+        "2C"
+      ],
+      "start": "6H",
+      "heels": 0,
+      "hand_score": 4,
+      "opponent_hand_score": 8,
+      "crib_score": 7,
+      "pegging": [
+        {
+          "player": "pone",
+          "card": "9C",
+          "count": 9,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "QD",
+          "count": 19,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "KH",
+          "count": 29,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "AS",
+          "count": 30,
           "points": 0,
           "events": []
         },
@@ -906,26 +497,133 @@
         },
         {
           "player": "pone",
-          "card": "QH",
+          "card": "6C",
+          "count": 6,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "10H",
+          "count": 16,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "5H",
+          "count": 21,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "4S",
+          "count": 25,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        }
+      ],
+      "score": 79,
+      "opponent_score": 65
+    },
+    {
+      "round": 6,
+      "position": "pone",
+      "hand": [
+        "5S",
+        "5D",
+        "7S",
+        "10C"
+      ],
+      "discard": [
+        "AS",
+        "8S"
+      ],
+      "opponent_hand": [
+        "9S",
+        "10H",
+        "10D",
+        "JD"
+      ],
+      "opponent_discard": [
+        "AC",
+        "4H"
+      ],
+      "start": "4D",
+      "heels": 0,
+      "hand_score": 6,
+      "opponent_hand_score": 9,
+      "crib_score": 4,
+      "pegging": [
+        {
+          "player": "pone",
+          "card": "10C",
           "count": 10,
           "points": 0,
           "events": []
         },
         {
           "player": "dealer",
-          "card": "JS",
+          "card": "10H",
           "count": 20,
+          "points": 2,
+          "events": [
+            "pair"
+          ]
+        },
+        {
+          "player": "pone",
+          "card": "7S",
+          "count": 27,
           "points": 0,
           "events": []
         },
         {
           "player": "pone",
-          "card": "JC",
-          "count": 30,
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        },
+        {
+          "player": "dealer",
+          "card": "10D",
+          "count": 10,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "5S",
+          "count": 15,
           "points": 2,
           "events": [
-            "pair"
+            "15"
           ]
+        },
+        {
+          "player": "dealer",
+          "card": "9S",
+          "count": 24,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "5D",
+          "count": 29,
+          "points": 0,
+          "events": []
         },
         {
           "player": "pone",
@@ -939,6 +637,212 @@
           "player": "dealer",
           "card": "JD",
           "count": 10,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        }
+      ],
+      "score": 89,
+      "opponent_score": 81
+    },
+    {
+      "round": 7,
+      "position": "dealer",
+      "hand": [
+        "5D",
+        "5C",
+        "JD",
+        "QC"
+      ],
+      "discard": [
+        "3C",
+        "7H"
+      ],
+      "opponent_hand": [
+        "6S",
+        "6D",
+        "7S",
+        "9H"
+      ],
+      "opponent_discard": [
+        "AH",
+        "QS"
+      ],
+      "start": "5S",
+      "heels": 0,
+      "hand_score": 20,
+      "opponent_hand_score": 12,
+      "crib_score": 4,
+      "pegging": [
+        {
+          "player": "pone",
+          "card": "6D",
+          "count": 6,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "QC",
+          "count": 16,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "9H",
+          "count": 25,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "5D",
+          "count": 30,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        },
+        {
+          "player": "pone",
+          "card": "7S",
+          "count": 7,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "JD",
+          "count": 17,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "6S",
+          "count": 23,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "5C",
+          "count": 28,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": null,
+          "points": 1,
+          "events": [
+            "sequence end"
+          ]
+        }
+      ],
+      "score": 115,
+      "opponent_score": 93
+    },
+    {
+      "round": 8,
+      "position": "pone",
+      "hand": [
+        "AC",
+        "7H",
+        "7D",
+        "JH"
+      ],
+      "discard": [
+        "2H",
+        "4D"
+      ],
+      "opponent_hand": [
+        "2S",
+        "3S",
+        "JC",
+        "QD"
+      ],
+      "opponent_discard": [
+        "7S",
+        "9D"
+      ],
+      "start": "5H",
+      "heels": 0,
+      "hand_score": 7,
+      "opponent_hand_score": 8,
+      "crib_score": 2,
+      "pegging": [
+        {
+          "player": "pone",
+          "card": "7H",
+          "count": 7,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "JC",
+          "count": 17,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "JH",
+          "count": 27,
+          "points": 2,
+          "events": [
+            "pair"
+          ]
+        },
+        {
+          "player": "dealer",
+          "card": "3S",
+          "count": 30,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "AC",
+          "count": 31,
+          "points": 2,
+          "events": [
+            "31"
+          ]
+        },
+        {
+          "player": "dealer",
+          "card": "QD",
+          "count": 10,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "pone",
+          "card": "7D",
+          "count": 17,
+          "points": 0,
+          "events": []
+        },
+        {
+          "player": "dealer",
+          "card": "2S",
+          "count": 19,
           "points": 0,
           "events": []
         },
@@ -952,8 +856,8 @@
         }
       ],
       "score": 121,
-      "opponent_score": 106
+      "opponent_score": 94
     }
   ],
-  "opponent_name": "Paul69875"
+  "opponent_name": "AudAnd"
 }
