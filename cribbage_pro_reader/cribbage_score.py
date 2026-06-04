@@ -202,7 +202,7 @@ def score_pegging(dealer_hand, pone_hand, plays):
             if r["card"] is not None
         )
 
-        if "31" not in last_play["events"]:
+        if "31" not in last_play["events"] and not dealer_remaining and not pone_remaining:
             results.append({
                 "player": last_play["player"],
                 "card": None,
